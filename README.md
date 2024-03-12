@@ -1,5 +1,4 @@
 # Manjaro Search
-![GitHub](https://img.shields.io/github/license/Mirdarthos/firefox-extension-manjaro-search)
 
 A set of Web Extensions that adds Manjaro (forum, packages, wiki, Arch Linux AUR) as a search engine to the Firefox browser
 (using the [chrome_settings_overrides](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides) manifest key).
