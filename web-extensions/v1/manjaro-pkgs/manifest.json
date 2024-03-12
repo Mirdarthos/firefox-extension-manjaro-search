@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Manjaro Packages Search",
+  "short_name": "manjaro_search_pkgs",
+  "description": "Adds Manjaro Packages as a search engine.",
+  "version": "1.0",
+  "icons": {
+    "16": "icons/manjaro.svg",
+    "64": "icons/manjaro.svg",
+    "256": "icons/manjaro.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Manjaro Packages",
+      "keyword": "@manp",
+      "favicon_url": "icons/manjaro.svg",
+      "search_url": "https://packages.manjaro.org/?query={searchTerms}"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "manp@manjaro.org",
+        "strict_min_version": "109.0"
+    },
+  },
+  "author": "Mirdarthos",
+  "homepage_url": "https://github.com/Mirdarthos/firefox-extension-manjaro-search"
+}

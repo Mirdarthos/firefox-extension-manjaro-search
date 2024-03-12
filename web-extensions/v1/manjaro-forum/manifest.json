@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Manjaro forum search:",
+  "short_name": "manjaro_search_forum",
+  "description": "Adds Manjaro Forum (by keywords) as a search engine.",
+  "version": "1.0",
+  "icons": {
+    "16": "icons/manjaro.svg",
+    "64": "icons/manjaro.svg",
+    "256": "icons/manjaro.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Manjaro Forum (keywords)",
+      "keyword": "@manf",
+      "favicon_url": "icons/manjaro.svg",
+      "search_url": "https://forum.manjaro.org/search?q={searchTerms}"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "ManF@manjaro.org",
+        "strict_min_version": "109.0"
+    },
+    "gecko_android": {
+      "strict_min_version": "121.0"
+    }
+  },
+  "author": "mirdarthos",
+  "homepage_url": "https://github.com/Mirdarthos/firefox-extension-manjaro-search"
+}

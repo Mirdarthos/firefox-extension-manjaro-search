@@ -1,32 +1,20 @@
 {
-  "name": "firefox-extension-arch-search",
+  "name": "firefox-extension-manjaro-search",
   "version": "1.0.4",
   "license": "MIT",
-  "description": "A set of Web Extensions that adds ArchLinux (bug tracker, forum, packages, wiki, AUR) as a search engine to the Firefox browser.",
-  "author": "noraj",
+  "description": "A set of Web Extensions that adds Manjaro (forum, packages, wiki, Arch AUR) as a search engine to the Firefox browser.",
+  "author": "Mirdarthos",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noraj/firefox-extension-arch-search.git"
+    "url": "git+https://github.com/Mirdarthos/firefox-extension-manjaro-search.git"
   },
   "bugs": {
-    "url": "https://github.com/noraj/firefox-extension-arch-search/issues"
+    "url": "https://github.com/Mirdarthos/firefox-extension-manjaro-search/issues"
   },
-  "homepage": "https://github.com/noraj/firefox-extension-arch-search",
+  "homepage": "https://github.com/Mirdarthos/firefox-extension-manjaro-search",
   "keywords": [
     "webextensions",
     "firefox",
-    "archlinux"
-  ],
-  "scripts": {
-    "lint": "web-ext lint",
-    "build": "web-ext build --overwrite-dest -a ./dist",
-    "buildAll": "./build.sh",
-    "run": "web-ext run"
-  },
-  "devDependencies": {
-    "web-ext": "7.11.0"
-  },
-  "engines": {
-    "node": ">=18"
-  }
+    "manjaro"
+  ]
 }
